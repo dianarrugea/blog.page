@@ -1,0 +1,278 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0;
+}
+.header{
+	height: 150px;
+	width: auto;
+	background-color: #ffffff;
+}
+
+.about{
+	display: flex;
+	height: 150px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.title{
+	margin: 0 auto;
+	padding: 20px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", "sans-serif";
+	margin-top: 35px;
+}
+
+.navbar{
+	height: auto;
+	width: auto;
+	background-color: #000000;
+	color: #eeeeee;
+	align-items: center;
+	padding: 5px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", "sans-serif";
+}
+
+.menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	
+}
+
+#button1{
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+	height: 20px;
+	border: 2px solid black;
+	padding: 8px;
+}
+
+.menu-link{
+	text-decoration: none;
+	color: #eeeeee;
+}
+
+#button2{
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+	height: 20px;
+	border: 2px solid black;
+	padding: 8px;
+}
+
+#button3{
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+	height: 20px;
+	border: 2px solid black;
+	padding: 8px;
+}
+
+.button-styling{
+	width: 120px;
+	background-color: black;
+	color:  #eeeeee;
+	border: 0.5px solid #eeeeee;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 18px;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", "sans-serif";
+}
+
+.button-styling:hover {
+	background-color: #f5f5f5b5;
+	color: black;
+	transition: 0.8s;
+}
+
+.container {
+  	padding: 16px;
+  	background-color: white;
+}
+
+.box-container{
+	margin: 20px;
+	height: 500px;
+	width: 350px;
+	border: 2px solid black;
+	padding: 10px;
+	margin-left: 500px;
+}
+
+input[type=text], input[type=password] {
+ 	width: 300px;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+	background-color: #ddd;
+	outline: none;
+}
+
+
+.subscribe-btn {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px;
+	border: none;
+	cursor: pointer;
+	width: 330px;
+	opacity: 0.9;
+
+}
+
+.subscribe-btn:hover {
+  opacity: 1;
+}
+
+
+.footer{
+	width: auto;
+	height: auto;
+	background: black;
+	display: flex;
+	flex-direction: row;
+	margin-top: 30px;
+}
+
+.social-media-logo{
+	width: 40px;
+	height: 40px;
+	margin: 5px;
+	
+}
+
+.social-media{
+	width: 40%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	margin-left: 10%;
+	padding: 15px;
+}
+
+.logo-area{
+	width: 40%;
+	height: auto;
+	color: #eeeeee;
+	display: flex;
+	flex-direction: row;	
+	padding: 15px;
+	justify-content: flex-end;
+	margin-right: 10%;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", "sans-serif";
+}
+
+.copyright{
+	height: 50px;
+	width: 100%;
+	background: black;
+	color: #eeeeee;
+	margin-top: 0;
+	display: flex;
+	justify-content: center;
+	border-top: solid 1px white;
+	align-items: center;
+	
+}
+
+@media (max-width: 600px){
+	.title{
+		padding: 20px;
+		margin-top: 5px;
+		font-size: 30px;
+		text-align: center;
+	}
+	
+	.button-styling{
+		width: 110px;
+		font-size: 15px;
+	}
+	
+	.image-gallery{
+		width: 200px;
+		height: 150px;
+	}
+	
+	.box-container{
+		display: flex;
+		align-items: center;
+		margin: 20px;
+		height: auto;
+		width: auto;
+		border: 2px solid black;
+		padding: 10px;
+	}
+	
+	.form-container{
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.social-media-logo{
+		width: 30px;
+		height: 30px;
+		margin: 5px;
+	}
+	
+	.logo-area{
+		font-size: 15px;
+	}
+}
+
+@media (min-width: 601px) and (max-width:901px) {
+	.box-container{
+		display: block;
+		margin: 20px;
+		height: auto;
+		width: auto;
+		border: 2px solid black;
+		padding: 10px;
+	}
+	
+	.form-container{
+		display: flex;
+		flex-direction: column;
+	}
+	input[type=text], input[type=password] {
+		width: auto;
+		padding: 15px;
+		margin: 5px 0 22px 0;
+		display: inline-block;
+		border: none;
+		background: #f1f1f1;
+		text-align: center;
+}
+
+	input[type=text]:focus, input[type=password]:focus {
+		width: auto;
+		background-color: #ddd;
+		outline: none;
+		text-align: center;
+	}
+	.subscribe-btn {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		background-color: #4CAF50;
+		color: white;
+		padding: 16px;
+		border: none;
+		cursor: pointer;
+		width: auto;
+		opacity: 0.9;
+	}
+}
