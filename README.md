@@ -1,20 +1,12 @@
 # Styled Blog Page
 ### This project is a simple styled blog page, that has been created using only HTML and CSS. 
 
-
-
 ## Technologies used:
 * HTML
 * CSS Flexbox
 * CSS Grid
 
-
-
 ## Basic Requirements
-* Geonames
-* Weatherbit
-* Pixabay
-* Restcountries (PLEASE NOTE: This API does not require any key.)
 
 ## Pattern
 ### Blog Homepage
@@ -30,6 +22,15 @@
 
 ### Blog Post
 * Social Sharing | Twitter/Facebook/LinkedIn
+
+## Responsiveness
+* Pages are mobile-friendly and display correctly on all display sizes | Mobile/Tablet/Desktop
+
+## Accessibility
+* Discernable text
+* Sufficient color contrast
+* ARIA attributes
+* Less than 5 violations found through the Axe (Chrome extension) test on the web page
 
 ## Author
 ### Diana Rugea
